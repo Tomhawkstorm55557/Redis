@@ -1,11 +1,16 @@
-
-
-set user1 ayush
-set user3 mayank
-get user1
-set user1 ayauh nx
-mset bike:1 "hnji" bike:2 "naji"
-mget bike:1 bike:2 bike:3
-set count  0
-incr count
-incrby  count 100
+SET name abhi
+keys *
+get name
+mset key1 "vinayak" key2 "jhingran"
+keys *
+SETNX good "boy"
+SET good "girl"
+Get good
+MGET good name
+TYPE good
+SET rider "op"
+keys *
+DEL rider
+Exists rider
+keys *
+Expire good 2
