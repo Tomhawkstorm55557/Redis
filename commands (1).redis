@@ -1,0 +1,13 @@
+lpush k1 v1
+lpush k1 v2
+lpop k1
+set name Vinayak
+GETRANGE name 0 3
+SETRANGE name 4 ILUV
+GET name
+lpush jdu "wow"
+lpush jdu 1
+rpush jdu "nani"
+llen jdu
+lrange jdu 0 -1
+rpop jdu
